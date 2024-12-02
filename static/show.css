@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(107, 189, 152);
+    font-family: Arial, sans-serif;
+}
+
+#head {
+    text-align: center;
+    max-width: 80%;
+    margin: 20px auto; /* Center and add space above/below */
+    padding: 0.5%;
+    background-color: rgb(226, 225, 223);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#SecondDiv {   /*this is for back button/*
+    text-align: left; /* Align the button to the left */  
+    position: absolute; /* Fix its position at the top */
+    top: 10px; /* Add some spacing from the top */
+    left: 10px; /* Add some spacing from the left edge */
+}
+
+#OneDiv {
+    margin: 0 auto; /* Center the table container */
+    width: 80%; /* Set a proper width for the table area */
+}
+
+table {
+    width: 100%; /* Full width of #OneDiv */
+    margin: 0 auto; /* Center the table inside #OneDiv */
+    border-collapse: collapse; /* Remove extra spacing between cells */
+    background-color: white; /* Optional: add a background for clarity */
+}
+
+th, td {
+    text-align: center; /* Center text in cells */
+    padding: 12px; /* Add spacing inside cells */
+    border: 1px solid #ddd; /* Add light borders for structure */
+}
+
+th {
+    background-color: rgb(226, 225, 223); /* Light gray header background */
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #18c577; /* Alternate row colors */
+}
+
+tr:hover {
+    background-color: #ddd; /* Highlight row on hover */
+}
